@@ -134,7 +134,8 @@ Author URL: http://w3layouts.com
     <div class="container py-md-5">
       <div class="row bottom-ab-grids align-items-center">
         <div class="col-lg-6 bottom-ab-right mb-lg-0 mb-5 pr-lg-5">
-          <img src="assets/images/ab1.jpg" class="img-fluid" alt="">
+          <img src="{{ URL::asset('imgs/ab1.jpg'); }}" class="img-fluid" alt="">
+          
         </div>
         <div class="col-lg-6 bottom-ab-left">
           <h6 class="sub-title">Acerca de</h6>
@@ -242,9 +243,7 @@ Author URL: http://w3layouts.com
                 <a class="btn btn-style-1 ml-2 mt-md-5 mt-4"> Segundo día</a>
                 <a class="btn btn-style-1 ml-2 mt-md-5 mt-4"> Tercer día</a>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-8 mt-md-0 mt-5">
-                <img src="assets/images/blog3.jpg" alt="" class="img-fluid">
-            </div>
+            
         </div>
     </div>
 </section>
@@ -326,7 +325,7 @@ Author URL: http://w3layouts.com
         <span class="fa fa-angle-up"></span>
       </button>
       <div class="img-wpp">
-        <a href="https://wa.me/3137631417" target="_blank"><img id="svg-wpp" src="./assets/images/logo_whatsapp.svg"></a>
+        <a href="https://wa.me/3137631417" target="_blank"><img id="svg-wpp" src="{{ URL::asset('imgs/logo_whatsapp.svg'); }}"></a>
 
       </div>
       <script>
@@ -466,7 +465,7 @@ Author URL: http://w3layouts.com
   </script>
   <!--//MENU-JS-->
 
-  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="{{ URL::asset('js/bootstrap.min.js'); }}"></script>
 
 </body>
 

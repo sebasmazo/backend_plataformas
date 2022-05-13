@@ -83,10 +83,7 @@ Author URL: http://w3layouts.com
     <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
       <div class="container py-2">
         <h2 class="title">Artistas invitados</h2>
-        <ul class="breadcrumbs-custom-path mt-2">
-          <li><a href="#url">Home</a></li>
-          <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Artistas invitados</li> 
-        </ul>
+        
       </div>
     </div>
   </section>
@@ -95,155 +92,155 @@ Author URL: http://w3layouts.com
     <div class="galeria_artistas">
       <!-- Fila 1 -->
       <div class="pic">
-        <img src="assets/images/badbunny.jpeg">
+        <img src="{{ URL::asset('imgs/badbunny.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Bad Bunny</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/theweeknd.jpeg">
+        <img src="{{ URL::asset('imgs/theweeknd.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">The Weeknd</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/billie.jpeg">
+        <img src="{{ URL::asset('imgs/billie.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Billie Eilish</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/arcticmonkeys.jpg">
+        <img src="{{ URL::asset('imgs/arcticmonkeys.jpg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Arctic Monkeys</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/theneighbourhood.jpg">
+        <img src="{{ URL::asset('imgs/theneighbourhood.jpg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">The Neighbourhood</p>
         </div>
       </div>
       <!-- Fila 2 -->
       <div class="pic">
-        <img src="assets/images/zayn.jpeg">
+        <img src="{{ URL::asset('imgs/zayn.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Zayn</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/rihanna.jpeg">
+        <img src="{{ URL::asset('imgs/rihanna.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Rihanna</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/hozier.webp">
+        <img src="{{ URL::asset('imgs/hozier.webp'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Hozier</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/tameimpala.png">
+        <img src="{{ URL::asset('imgs/tameimpala.png'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Tame Impala</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/drake.jpeg">
+        <img src="{{ URL::asset('imgs/drake.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Drake</p>
         </div>
       </div>
       <!-- Fila 3 -->
       <div class="pic">
-        <img src="assets/images/danielcaesar.jpeg">
+        <img src="{{ URL::asset('imgs/danielcaesar.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Daniel Caesar</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/coldplay.jpeg">
+        <img src="{{ URL::asset('imgs/coldplay.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Coldplay</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/khalid.png">
+        <img src="{{ URL::asset('imgs/khalid.png'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Khalid</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/macmiller.jpeg">
+        <img src="{{ URL::asset('imgs/macmiller.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Mac Miller</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/dualipa.jpeg">
+        <img src="{{ URL::asset('imgs/dualipa.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Dua Lipa</p>
         </div>
       </div>
       <!-- Fila 4 -->
       <div class="pic">
-        <img src="assets/images/eminem.jpg">
+        <img src="{{ URL::asset('imgs/eminem.jpg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Eminem</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/karolg.jpeg">
+        <img src="{{ URL::asset('imgs/karolg.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Karol G</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/jhaycortez.png">
+        <img src="{{ URL::asset('imgs/jhaycortez.png'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Jhay Cortez</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/sabrina.jpeg">
+        <img src="{{ URL::asset('imgs/sabrina.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Sabrina Claudio</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/asap.jpg">
+        <img src="{{ URL::asset('imgs/asap.jpg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">A$AP ROCKY</p>
         </div>
       </div>
       <!-- Fila 5 -->
       <div class="pic">
-        <img src="assets/images/rauw.jpeg">
+        <img src="{{ URL::asset('imgs/rauw.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Rauw Alejandro</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/olivia.png">
+        <img src="{{ URL::asset('imgs/olivia.png'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Olivia Rodrigo</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/kendrick.jpeg">
+        <img src="{{ URL::asset('imgs/kendrick.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Kendrick Lamar</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/muse.jpeg">
+        <img src="{{ URL::asset('imgs/muse.jpeg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">Muse</p>
         </div>
       </div>
       <div class="pic">
-        <img src="assets/images/willow.jpg">
+        <img src="{{ URL::asset('imgs/willow.jpg'); }}">
         <div class="pic_overlay">
           <p class="pic_txt">WILLOW</p>
         </div>
@@ -305,7 +302,7 @@ Author URL: http://w3layouts.com
         <span class="fa fa-angle-up"></span>
       </button>
       <div class="img-wpp">
-        <a href="https://wa.me/3137631417" target="_blank"><img id="svg-wpp" src="./assets/images/logo_whatsapp.svg"></a>
+        <a href="https://wa.me/3137631417" target="_blank"><img id="svg-wpp" src="{{ URL::asset('imgs/logo_whatsapp.svg'); }}"></a>
 
       </div>
       <script>

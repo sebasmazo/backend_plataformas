@@ -69,10 +69,7 @@ Author URL: http://w3layouts.com
     <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
       <div class="container py-2">
         <h2 class="title">Programación</h2>
-        <ul class="breadcrumbs-custom-path mt-2">
-          <li><a href="#url">Home</a></li>
-          <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Programación </li>
-        </ul>
+        
       </div>
     </div>
   </section>
@@ -266,7 +263,7 @@ Author URL: http://w3layouts.com
         <span>1:00 </span>Kendrick Lamar
       </p>
       <p class="actuacion">
-        <span>1:30 </span>Mac Miller Tribute
+        <span>1:30 </span>Mac Miller (Yo me llamo)
       </p>
       <p class="actuacion">
         <span>2:00 </span>Drake
