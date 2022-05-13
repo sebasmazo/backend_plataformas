@@ -15,7 +15,7 @@ Author URL: http://w3layouts.com
     <!-- Template CSS -->
     <link rel="stylesheet" href="{{ URL::asset('css/style-starter.css'); }}">
     <!-- Template CSS -->
-    <script src="./assets/js/nav.js"></script>
+    <script src="{{ URL::asset('js/nav.js'); }}"></script>
 
 
   </head>
@@ -343,7 +343,7 @@ Author URL: http://w3layouts.com
   </section>
   <!-- //footer7 block -->
   <!-- Template JavaScript -->
-  <script src="assets/js/centralizacion.js"></script>
+  <script src="{{ URL::asset('js/centralizacion.js'); }}"></script>
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/theme-change.js"></script>
   <!--/MENU-JS-->

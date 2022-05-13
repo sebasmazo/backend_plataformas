@@ -39,11 +39,11 @@ function asignarNavegacion(){
     menu_items.push(document.getElementById("item_4"));
     menu_items.push(document.getElementById("item_5"));
 
-    paginas["item_1"] = "index.html";
-    paginas["item_2"] = "programacion.html";
-    paginas["item_3"] = "artistas.html";
-    paginas["item_4"] = "api.html";
-    paginas["item_5"] = "register.html";
+    paginas["item_1"] = "index";
+    paginas["item_2"] = "programacion";
+    paginas["item_3"] = "artistas";
+    paginas["item_4"] = "api";
+    paginas["item_5"] = "register";
 
     for(var i of menu_items)
     {
