@@ -8,14 +8,11 @@ use Illuminate\Support\Facades\Auth;
 class MainController extends Controller
 {
     function index(){
-        return view('login');
+        return view('inicio');
     }
     function checklogin(Request $request){
-        $this->validate($request, [
-        'email' => 'required|email',
-        'password' => 'required|alphaNum|min:3|password',
-        ]);
-
+        
+        
         $user_data = array(
             'email' => $request->get('email'),
             'password' => $request->get('password')
@@ -28,11 +25,11 @@ class MainController extends Controller
         }
     }
     function successlogin(){
-        return view('index');
+        return redirect()->intended('index');
     }
     function logout(){
         Auth::logout();
-        return redirect('login');
+        return redirect('inicio');
     }
 
 }

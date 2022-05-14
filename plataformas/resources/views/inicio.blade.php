@@ -16,21 +16,21 @@
  <!-- Contenedor para alojar formulario de registro -->
   <div class="container-register">
       @if(isset(Auth::user()->email))
-        <script>window.location="/login/successlogin"</script>
+        <script>window.location="/inicio/successlogin"</script>
       @endif
     <div class="title-register">
         <h3 class="txt_reg">Iniciar sesion</h3>
     </div>
     <div class="form-container">
         
-        <form class="form-register"  method="post" action="{{ url('/login/checklogin')}}">
+        <form class="form-register"  method="post" action="{{ url('/inicio/checklogin')}}">
             {{csrf_field()}}
             <div class="input-register">
                 
                 <label for="email" ><p class="txt_reg">Correo</p></label>
                 <input type="email" id="email" name="email" placeholder="Correo" required><br>
                 <label for="password"><p class="txt_reg">Contraseña</p></label>
-                <input type="password" id="password" placeholder="Contraseña" required><br>
+                <input type="password" name="password" placeholder="Contraseña" required><br>
                 <input type="submit" name="login" >
             </div>
             <div class="container-signin">

@@ -30,14 +30,15 @@ Route::get('/programacion', function(){
     return view('programacion');
 });
 
+
 Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/login','App\Http\Controllers\MainController@index');
-Route::post('/login/checklogin','App\Http\Controllers\MainController@checklogin');
-Route::get('/login/successlogin','App\Http\Controllers\MainController@successlogin');
-Route::get('/login/logout', 'App\Http\Controllers\MainController@logout');
+Route::get('/inicio','App\Http\Controllers\MainController@index');
+Route::post('/inicio/checklogin','App\Http\Controllers\MainController@checklogin');
+Route::get('/inicio/successlogin','App\Http\Controllers\MainController@successlogin');
+Route::get('/inicio/logout', 'App\Http\Controllers\MainController@logout');
 
 Route::get('/api',function(){
     return view('api');
