@@ -33,7 +33,7 @@ Route::get('/programacion', function(){
 
 
 
-Route::get('/inicio','App\Http\Controllers\MainController@index');
+Route::get('/inicio','App\Http\Controllers\MainController@index')->name('inicio');
 Route::post('/inicio/checklogin','App\Http\Controllers\MainController@checklogin');
 Route::get('/inicio/successlogin','App\Http\Controllers\MainController@successlogin');
 Route::get('/inicio/logout', 'App\Http\Controllers\MainController@logout');

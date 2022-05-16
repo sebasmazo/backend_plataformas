@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    @if(isset(Auth::user()->email))
+    @if(Auth::check())
         <script>window.location="/inicio/successlogin"</script>
     @endif
  <!-- Contenedor para alojar formulario de registro -->

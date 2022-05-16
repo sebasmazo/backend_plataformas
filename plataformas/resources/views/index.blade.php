@@ -21,7 +21,7 @@ Author URL: http://w3layouts.com
   <script src="{{ URL::asset('js/nav.js'); }}"></script>
 </head>
 
-<body onload="ValidateUsr()">
+<body >
   <!--header-->
   <header id="site-header" class="fixed-top">
     <div class="container">
@@ -138,7 +138,9 @@ Author URL: http://w3layouts.com
           
         </div>
         <div class="col-lg-6 bottom-ab-left">
-          <h2><a href="/inicio/logout">Cerrar sesión</a></h2>
+        @if(Auth::check())
+        <h2><a href="/inicio/logout">Cerrar sesión</a></h2>
+        @endif
           <h6 class="sub-title">Acerca de</h6>
           <h3 class="hny-title">
             El mayor festival de esta década</h3>
