@@ -15,7 +15,7 @@
  
  <!-- Contenedor para alojar formulario de registro -->
   <div class="container-register">
-      @if(isset(Auth::user()->email))
+      @if(Auth::check())
         <script>window.location="/inicio/successlogin"</script>
       @endif
     <div class="title-register">
@@ -34,7 +34,7 @@
                 <input type="submit" name="login" >
             </div>
             <div class="container-signin">
-                <p class="txt_alt">No tiene cuenta? <a class="txt_reg" href="register.html">Registrarse</a></p>
+                <p class="txt_alt">No tiene cuenta? <a class="txt_reg" href="register">Registrarse</a></p>
                 <p><a class="txt_reg" href="{{url('index')}}">Volver</a></p>
             </div>
         </form>
