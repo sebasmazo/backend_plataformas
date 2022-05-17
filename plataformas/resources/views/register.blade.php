@@ -35,7 +35,7 @@
             </div>
             <div class="container-signin">
                 <p class="txt_alt">Ya está registrado? <a class="txt_reg" href="inicio">Iniciar sesión</a></p>
-                <p><a class="txt_reg" href="index.html">Volver</a></p>
+                <p><a class="txt_reg" href="index">Volver</a></p>
             </div>
         </form>
     </div>
