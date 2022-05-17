@@ -18,11 +18,15 @@
 <p>Por medidas de seguridad, git elimina el archivo .env, por esto, se debe ejecutar el comando * cp .env.example .env * de esta forma copiamos el archivo de configuración base. Además, se debe generar una Key para seguridad de laravel con el comando * php artisan key:generate * </p>
 
 <p>Nuestro proyecto usa una base de datos MySQL que se debe crear para realizar la migración de laravel.
+    
     mysql -u -p
+    
     CREATE DATABASE ssgfest;
 
 Se deben agregar las respectivas credenciales al archivo .env Al finalizar esto se puede migrar la base de datos;
+    
     php artisan migrate 
+    
     php artisan migrate --seed
 
 Luego realizar el comando * php artisan serve * para empezar a hostear el proyecto localmente
